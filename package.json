@@ -1,0 +1,36 @@
+{
+  "name": "auth-a2f",
+  "version": "1.0.0",
+  "description": "A2F authentication module for TOTP codes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+    "homepage": "https://github.com/Dimzxzzx07/authy-a2f#readme",
+  "bugs": {
+    "url": "https://github.com/Dimzxzzx07/authy-a2f/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimzxzzx07/authy-a2f.git"
+  },
+  "bin": {
+    "a2f": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["2fa", "totp", "authentication", "a2f"],
+  "author": "Dimzxzzx07",
+  "license": "MIT",
+  "dependencies": {
+    "speakeasy": "^2.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/speakeasy": "^2.0.10",
+    "@types/qrcode-terminal": "^0.12.2",
+    "typescript": "^5.3.0"
+  }
+}
