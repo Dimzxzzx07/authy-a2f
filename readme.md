@@ -1,4 +1,4 @@
-```markdown
+
 # auth-a2f
 
 <div align="center">
