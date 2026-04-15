@@ -114,16 +114,16 @@ Basic Commands
 a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub"
 
 # Show QR code
-a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub" --qr
+a2f "otpauth://totp/GitHub:Dimzxzzx07?" --qr
 
 # Verify a token
-a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub" --verify
+a2f "otpauth://totp/GitHub:Dimzxzzx07?" --verify
 
 # Realtime continuous mode
-a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub" --realtime
+a2f "otpauth://totp/GitHub:Dimzxzzx07?" --realtime
 
 # Wait for current token (returns once)
-a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub" --wait
+a2f "otpauth://totp/GitHub:Dimzxzzx07?" --wait
 ```
 
 CLI Options
