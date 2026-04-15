@@ -80,7 +80,7 @@ const a2f = require("auth-a2f");
 
 async function main() {
   const result = await a2f({
-    operator: "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub"
+    operator: "otpauth://totp/GitHub:Dimzxzzx07?"
   });
 
   console.log("Current Token:", result.token);
@@ -111,7 +111,7 @@ Basic Commands
 
 ```bash
 # Generate a single token
-a2f "otpauth://totp/GitHub:Dimzxzzx07?secret=TGZ76WG6VZTEC5Q2&issuer=GitHub"
+a2f "otpauth://totp/GitHub:Dimzxzzx07?"
 
 # Show QR code
 a2f "otpauth://totp/GitHub:Dimzxzzx07?" --qr
